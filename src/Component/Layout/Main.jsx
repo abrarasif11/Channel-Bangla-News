@@ -4,7 +4,7 @@ import Header from '../Header/Header'
 
 const Main = () => {
   return (
-    <div>
+    <div className='font-poppins'>
       <Header/>
       <Outlet/>
       <p>Footer</p>
