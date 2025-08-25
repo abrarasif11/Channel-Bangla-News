@@ -1,9 +1,10 @@
 import React from 'react'
+import LatestNews from '../LatestNews/LatestNews'
 
 const Home = () => {
   return (
     <div>
-      Home Page
+      <LatestNews/>
     </div>
   )
 }
