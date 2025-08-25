@@ -8,9 +8,8 @@ const Header = () => {
         <img className='mt-10 w-[300px]' src={logo} alt="" />
       </div>
       <h2 className='text-gray-500 mt-5 mb-3'>Journalism Without Fear</h2>
-      <p>{moment().format("dddd, MMMM Do YYYY, h:mm a")}</p>
+      <p className='text-'>{moment().format("dddd, MMMM Do YYYY, h:mm a")}</p>
     </div>
   )
 }
-
 export default Header
