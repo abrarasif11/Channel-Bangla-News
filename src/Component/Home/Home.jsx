@@ -1,6 +1,9 @@
 import React from 'react'
 import LatestNews from '../LatestNews/LatestNews'
 import Navbar from '../Navbar/Navbar'
+import LeftContent from '../Contents/LeftContent/LeftContent'
+import MainContent from '../Contents/MainContent/MainContent'
+import RightContent from '../Contents/RightContent/RightContent'
 
 const Home = () => {
   return (
@@ -13,17 +16,17 @@ const Home = () => {
       <main className='w-11/12 mx-auto pt-5 grid md:grid-cols-12 gap-4'>
         {/* Left Content */}
         <aside className='col-span-3  p-2'>
-          Left Content
+          <LeftContent/>
         </aside>
 
         {/* Main Content */}
         <section className='col-span-6  p-2'>
-          Main Content
+          <MainContent/>
         </section>
 
         {/* Right Content */}
         <aside className='col-span-3  p-2'>
-          Right Content
+          <RightContent/>
         </aside>
       </main>
     </div>

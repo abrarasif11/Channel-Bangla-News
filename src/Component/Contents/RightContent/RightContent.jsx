@@ -3,7 +3,7 @@ import React from 'react'
 const RightContent = () => {
   return (
     <div>
-      <p>RightContent</p>
+      <p>Right Content</p>
     </div>
   )
 }
