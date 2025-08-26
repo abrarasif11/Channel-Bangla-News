@@ -1,9 +1,10 @@
 import React from 'react'
+import SocialLogin from '../../SocialLogin/SocialLogin'
 
 const RightContent = () => {
   return (
     <div>
-      <p>Right Content</p>
+      <SocialLogin/>
     </div>
   )
 }
