@@ -3,7 +3,6 @@ import React from 'react'
 const MainContent = () => {
   return (
     <div>
-      <p>Main Content</p>
     </div>
   )
 }
